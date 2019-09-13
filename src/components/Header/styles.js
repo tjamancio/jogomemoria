@@ -1,6 +1,5 @@
 import styled from 'styled-components/native';
 import {colors, metrics} from '../../styles';
-//import { getStatusBarHeight } from 'react-native-status-bar-height';
 import {getStatusBarHeight, isIphoneX} from 'react-native-iphone-x-helper';
 
 export const Container = styled.View`
@@ -31,29 +30,3 @@ export const Button = styled.TouchableOpacity.attrs({
     bottom: 5,
   },
 })``;
-
-// const styles = StyleSheet.create({
-//   container: {
-//     alignItems: 'center',
-//     backgroundColor: colors.white,
-//     borderBottomColor: colors.light,
-//     borderBottomWidth: 1,
-//     flexDirection: 'row',
-//     height: 54 + getStatusBarHeight(),
-//     justifyContent: 'space-between',
-//     paddingHorizontal: metrics.basePadding,
-//     paddingTop: getStatusBarHeight(),
-//   },
-
-//   icon: {
-//     color: colors.darker,
-//   },
-
-//   title: {
-//     color: colors.darker,
-//     fontSize: 16,
-//     fontWeight: 'bold',
-//   },
-// });
-
-// export default styles;
