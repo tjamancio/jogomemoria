@@ -24,3 +24,7 @@ export const Name = styled.Text`
 export const Moves = styled.Text`
   font-size: 20px;
 `;
+
+export const None = styled.Text`
+  align-self: center;
+`;

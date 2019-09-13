@@ -21,7 +21,7 @@ export function* selectCard({index, number}) {
         yield put(CardsActions.match(number));
       }
 
-      yield delay(1000);
+      yield delay(600);
       yield put(CardsActions.setCard1(null));
       yield put(CardsActions.setCard2(null));
     }

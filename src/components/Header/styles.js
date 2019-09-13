@@ -1,6 +1,7 @@
 import styled from 'styled-components/native';
 import {colors, metrics} from '../../styles';
-import {getStatusBarHeight} from 'react-native-status-bar-height';
+//import { getStatusBarHeight } from 'react-native-status-bar-height';
+import {getStatusBarHeight, isIphoneX} from 'react-native-iphone-x-helper';
 
 export const Container = styled.View`
   align-items: center;
@@ -9,9 +10,9 @@ export const Container = styled.View`
   background: ${colors.white};
   border-bottom-color: ${colors.light};
   border-bottom-width: 1px;
-  height: ${54 + getStatusBarHeight()}px;
-  padding: ${getStatusBarHeight()}px ${metrics.basePadding}px 0
-    ${metrics.basePadding}px;
+  height: ${!isIphoneX() ? 50 : 50 + getStatusBarHeight()}px;
+  padding: ${!isIphoneX() ? 0 : getStatusBarHeight()}px ${metrics.basePadding}px
+    0 ${metrics.basePadding}px;
 `;
 
 export const Left = styled.View``;
