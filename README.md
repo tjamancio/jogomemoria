@@ -12,6 +12,8 @@ npm install -g react-native-cli
 
 - Execute os seguintes comandos
 
+_Obs: A SDK do Android deve estar instalada_
+
 ```bash
 npm install
 react-native run-android
