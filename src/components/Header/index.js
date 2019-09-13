@@ -1,13 +1,15 @@
 import React, {Component} from 'react';
 import {withNavigation} from 'react-navigation';
-import {View, Text, TouchableOpacity, StatusBar} from 'react-native';
 import PropTypes from 'prop-types';
 
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
-import AsyncStorage from '@react-native-community/async-storage';
+import {connect} from 'react-redux';
+import {bindActionCreators} from 'redux';
+import CardsActions from '../../store/ducks/cards';
+import UserActions from '../../store/ducks/user';
 
-import styles from './styles';
+import {Container, Left, Title, Button} from './styles';
 
 class Header extends Component {
   static propTypes = {
@@ -15,28 +17,35 @@ class Header extends Component {
     navigation: PropTypes.shape({
       navigate: PropTypes.func,
     }).isRequired,
+    resetCards: PropTypes.func.isRequired,
+    resetUser: PropTypes.func.isRequired,
   };
 
-  signOut = async () => {
-    const {navigation} = this.props;
-    await AsyncStorage.clear();
-
-    navigation.navigate('Welcome');
+  handleClick = () => {
+    const {navigation, resetCards, resetUser} = this.props;
+    resetCards();
+    resetUser();
+    navigation.navigate('Login');
   };
 
   render() {
     const {title} = this.props;
     return (
-      <View style={styles.container}>
-        <StatusBar barStyle="dark-content" />
-        <View style={styles.left} />
-        <Text style={styles.title}>{title}</Text>
-        <TouchableOpacity onPress={this.signOut}>
-          <Icon name="exchange" size={16} style={styles.icon} />
-        </TouchableOpacity>
-      </View>
+      <Container>
+        <Left />
+        <Title>{title}</Title>
+        <Button onPress={this.handleClick}>
+          <Icon name="exit-to-app" size={20} />
+        </Button>
+      </Container>
     );
   }
 }
 
-export default withNavigation(Header);
+const mapDispatchToProps = dispatch =>
+  bindActionCreators({...CardsActions, ...UserActions}, dispatch);
+
+export default connect(
+  null,
+  mapDispatchToProps,
+)(withNavigation(Header));

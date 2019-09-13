@@ -1,29 +1,58 @@
-import { StyleSheet } from 'react-native';
-import { colors, metrics } from '~/styles';
-import { getStatusBarHeight } from 'react-native-status-bar-height';
+import styled from 'styled-components/native';
+import {colors, metrics} from '../../styles';
+import {getStatusBarHeight} from 'react-native-status-bar-height';
 
-const styles = StyleSheet.create({
-  container: {
-    alignItems: 'center',
-    backgroundColor: colors.white,
-    borderBottomColor: colors.light,
-    borderBottomWidth: 1,
-    flexDirection: 'row',
-    height: 54 + getStatusBarHeight(),
-    justifyContent: 'space-between',
-    paddingHorizontal: metrics.basePadding,
-    paddingTop: getStatusBarHeight(),
+export const Container = styled.View`
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  background: ${colors.white};
+  border-bottom-color: ${colors.light};
+  border-bottom-width: 1px;
+  height: ${54 + getStatusBarHeight()}px;
+  padding: ${getStatusBarHeight()}px ${metrics.basePadding}px 0
+    ${metrics.basePadding}px;
+`;
+
+export const Left = styled.View``;
+
+export const Title = styled.Text`
+  font-weight: bold;
+  font-size: 20px;
+  color: ${colors.secondary};
+`;
+
+export const Button = styled.TouchableOpacity.attrs({
+  hitSlop: {
+    top: 5,
+    left: 5,
+    right: 5,
+    bottom: 5,
   },
+})``;
 
-  icon: {
-    color: colors.darker,
-  },
+// const styles = StyleSheet.create({
+//   container: {
+//     alignItems: 'center',
+//     backgroundColor: colors.white,
+//     borderBottomColor: colors.light,
+//     borderBottomWidth: 1,
+//     flexDirection: 'row',
+//     height: 54 + getStatusBarHeight(),
+//     justifyContent: 'space-between',
+//     paddingHorizontal: metrics.basePadding,
+//     paddingTop: getStatusBarHeight(),
+//   },
 
-  title: {
-    color: colors.darker,
-    fontSize: 16,
-    fontWeight: 'bold',
-  },
-});
+//   icon: {
+//     color: colors.darker,
+//   },
 
-export default styles;
+//   title: {
+//     color: colors.darker,
+//     fontSize: 16,
+//     fontWeight: 'bold',
+//   },
+// });
+
+// export default styles;

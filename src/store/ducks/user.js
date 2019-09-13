@@ -3,9 +3,15 @@ import Immutable from 'seamless-immutable';
 
 /* Types & Action Creators */
 
-const {Types, Creators} = createActions({
-  setName: ['name'],
-});
+const {Types, Creators} = createActions(
+  {
+    setName: ['name'],
+    resetUser: null,
+  },
+  {
+    prefix: 'User',
+  },
+);
 
 export const UserTypes = Types;
 export default Creators;
