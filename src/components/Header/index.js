@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {StatusBar} from 'react-native';
 import {withNavigation} from 'react-navigation';
 import PropTypes from 'prop-types';
 
@@ -32,6 +33,7 @@ class Header extends Component {
     const {title} = this.props;
     return (
       <Container>
+        <StatusBar barStyle="light-content" />
         <Left />
         <Title>{title}</Title>
         <Button onPress={this.handleClick}>

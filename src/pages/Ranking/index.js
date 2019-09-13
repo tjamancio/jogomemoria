@@ -1,7 +1,14 @@
 import React, {Component} from 'react';
 import {ScrollView} from 'react-native';
 
-import {Container, RankingContainer, RankingItem, Name, Moves} from './styles';
+import {
+  Container,
+  RankingContainer,
+  RankingItem,
+  Name,
+  Moves,
+  None,
+} from './styles';
 import Header from '../../components/Header';
 import AsyncStorage from '@react-native-community/async-storage';
 
@@ -46,12 +53,16 @@ export default class Ranking extends Component {
         <Header title="Ranking" />
         <ScrollView>
           <RankingContainer>
-            {ranking.map((item, index) => (
-              <RankingItem key={index}>
-                <Name>{item.name}</Name>
-                <Moves>{item.moves} jogadas</Moves>
-              </RankingItem>
-            ))}
+            {ranking.length > 0 ? (
+              ranking.map((item, index) => (
+                <RankingItem key={index}>
+                  <Name>{item.name}</Name>
+                  <Moves>{item.moves} jogadas</Moves>
+                </RankingItem>
+              ))
+            ) : (
+              <None>Nenhum registro ainda!</None>
+            )}
           </RankingContainer>
         </ScrollView>
       </Container>

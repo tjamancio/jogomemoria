@@ -29,7 +29,7 @@ class Game extends Component {
 
   state = {
     cards: [],
-    pairs: 2,
+    pairs: 10,
   };
 
   componentDidMount() {
@@ -67,7 +67,7 @@ class Game extends Component {
     const {pairs} = this.state;
     let cards = Array.from(Array(pairs), (x, index) => index + 1);
     cards = [...cards, ...cards];
-    cards.sort((elem1, elem2) => Math.random() - Math.random());
+    cards.sort(() => Math.random() - Math.random());
 
     this.setState({cards});
   };
