@@ -16,6 +16,26 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* jogomemoriaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* jogomemoriaTests.m */; };
+		37352CF8B787806807557A08 /* libPods-jogomemoria.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AA1D1EE0D84BBFB8FFC73E /* libPods-jogomemoria.a */; };
+		3CD09E1C232C004000BD7D4A /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CD09E0C232C003F00BD7D4A /* Fontisto.ttf */; };
+		3CD09E1D232C004000BD7D4A /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CD09E0D232C004000BD7D4A /* FontAwesome5_Solid.ttf */; };
+		3CD09E1E232C004000BD7D4A /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CD09E0E232C004000BD7D4A /* MaterialIcons.ttf */; };
+		3CD09E1F232C004000BD7D4A /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CD09E0F232C004000BD7D4A /* Ionicons.ttf */; };
+		3CD09E20232C004000BD7D4A /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CD09E10232C004000BD7D4A /* FontAwesome5_Brands.ttf */; };
+		3CD09E21232C004000BD7D4A /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CD09E11232C004000BD7D4A /* FontAwesome.ttf */; };
+		3CD09E22232C004000BD7D4A /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CD09E12232C004000BD7D4A /* MaterialCommunityIcons.ttf */; };
+		3CD09E23232C004000BD7D4A /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CD09E13232C004000BD7D4A /* Foundation.ttf */; };
+		3CD09E24232C004000BD7D4A /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CD09E14232C004000BD7D4A /* SimpleLineIcons.ttf */; };
+		3CD09E25232C004000BD7D4A /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CD09E15232C004000BD7D4A /* Zocial.ttf */; };
+		3CD09E26232C004000BD7D4A /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CD09E16232C004000BD7D4A /* Entypo.ttf */; };
+		3CD09E27232C004000BD7D4A /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CD09E17232C004000BD7D4A /* Feather.ttf */; };
+		3CD09E28232C004000BD7D4A /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CD09E18232C004000BD7D4A /* Octicons.ttf */; };
+		3CD09E29232C004000BD7D4A /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CD09E19232C004000BD7D4A /* AntDesign.ttf */; };
+		3CD09E2A232C004000BD7D4A /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CD09E1A232C004000BD7D4A /* FontAwesome5_Regular.ttf */; };
+		3CD09E2B232C004000BD7D4A /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CD09E1B232C004000BD7D4A /* EvilIcons.ttf */; };
+		61F4F8F54C784C0E4A8F4A3D /* libPods-jogomemoria-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF8F77902C75D28CD2EA313 /* libPods-jogomemoria-tvOS.a */; };
+		92023A48FE665F400C15297D /* libPods-jogomemoriaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 852C477B93E3C8BBD460FFD1 /* libPods-jogomemoriaTests.a */; };
+		CD89C905261739DDA4F6AFFC /* libPods-jogomemoria-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB1269CDD65A241E6E0A6FC /* libPods-jogomemoria-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +67,38 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = jogomemoria/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = jogomemoria/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = jogomemoria/main.m; sourceTree = "<group>"; };
+		16B71D92BE4DC4E9139388D1 /* Pods-jogomemoria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jogomemoria.release.xcconfig"; path = "Target Support Files/Pods-jogomemoria/Pods-jogomemoria.release.xcconfig"; sourceTree = "<group>"; };
+		1F9769F916466FBB389268AC /* Pods-jogomemoriaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jogomemoriaTests.debug.xcconfig"; path = "Target Support Files/Pods-jogomemoriaTests/Pods-jogomemoriaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* jogomemoria-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jogomemoria-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* jogomemoria-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jogomemoria-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD09E0C232C003F00BD7D4A /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		3CD09E0D232C004000BD7D4A /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		3CD09E0E232C004000BD7D4A /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		3CD09E0F232C004000BD7D4A /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		3CD09E10232C004000BD7D4A /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		3CD09E11232C004000BD7D4A /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		3CD09E12232C004000BD7D4A /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		3CD09E13232C004000BD7D4A /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		3CD09E14232C004000BD7D4A /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		3CD09E15232C004000BD7D4A /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		3CD09E16232C004000BD7D4A /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		3CD09E17232C004000BD7D4A /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		3CD09E18232C004000BD7D4A /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		3CD09E19232C004000BD7D4A /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		3CD09E1A232C004000BD7D4A /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		3CD09E1B232C004000BD7D4A /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		55E290820E62C9874AF8EEF1 /* Pods-jogomemoria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jogomemoria.debug.xcconfig"; path = "Target Support Files/Pods-jogomemoria/Pods-jogomemoria.debug.xcconfig"; sourceTree = "<group>"; };
+		7CC9804B6396E1887F5E5E8E /* Pods-jogomemoria-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jogomemoria-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-jogomemoria-tvOSTests/Pods-jogomemoria-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		852C477B93E3C8BBD460FFD1 /* libPods-jogomemoriaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jogomemoriaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F68C6B0E4666BE7838009C5 /* Pods-jogomemoria-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jogomemoria-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-jogomemoria-tvOS/Pods-jogomemoria-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9FF8F77902C75D28CD2EA313 /* libPods-jogomemoria-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jogomemoria-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1AA1D1EE0D84BBFB8FFC73E /* libPods-jogomemoria.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jogomemoria.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F9D42354F9F4A133C74A67 /* Pods-jogomemoria-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jogomemoria-tvOS.release.xcconfig"; path = "Target Support Files/Pods-jogomemoria-tvOS/Pods-jogomemoria-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		E7827D110DA067AAB5900BE0 /* Pods-jogomemoriaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jogomemoriaTests.release.xcconfig"; path = "Target Support Files/Pods-jogomemoriaTests/Pods-jogomemoriaTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EDB1269CDD65A241E6E0A6FC /* libPods-jogomemoria-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jogomemoria-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D673DE2A54A5D353411BA6 /* Pods-jogomemoria-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jogomemoria-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-jogomemoria-tvOSTests/Pods-jogomemoria-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92023A48FE665F400C15297D /* libPods-jogomemoriaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37352CF8B787806807557A08 /* libPods-jogomemoria.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61F4F8F54C784C0E4A8F4A3D /* libPods-jogomemoria-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD89C905261739DDA4F6AFFC /* libPods-jogomemoria-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +173,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				B1AA1D1EE0D84BBFB8FFC73E /* libPods-jogomemoria.a */,
+				9FF8F77902C75D28CD2EA313 /* libPods-jogomemoria-tvOS.a */,
+				EDB1269CDD65A241E6E0A6FC /* libPods-jogomemoria-tvOSTests.a */,
+				852C477B93E3C8BBD460FFD1 /* libPods-jogomemoriaTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,6 +196,8 @@
 				00E356EF1AD99517003FC87E /* jogomemoriaTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BCBACE90848F4DD995AD9977 /* Pods */,
+				9699C0EAC93D4DCDA3D19B5D /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -157,6 +215,44 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9699C0EAC93D4DCDA3D19B5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3CD09E19232C004000BD7D4A /* AntDesign.ttf */,
+				3CD09E16232C004000BD7D4A /* Entypo.ttf */,
+				3CD09E1B232C004000BD7D4A /* EvilIcons.ttf */,
+				3CD09E17232C004000BD7D4A /* Feather.ttf */,
+				3CD09E11232C004000BD7D4A /* FontAwesome.ttf */,
+				3CD09E10232C004000BD7D4A /* FontAwesome5_Brands.ttf */,
+				3CD09E1A232C004000BD7D4A /* FontAwesome5_Regular.ttf */,
+				3CD09E0D232C004000BD7D4A /* FontAwesome5_Solid.ttf */,
+				3CD09E0C232C003F00BD7D4A /* Fontisto.ttf */,
+				3CD09E13232C004000BD7D4A /* Foundation.ttf */,
+				3CD09E0F232C004000BD7D4A /* Ionicons.ttf */,
+				3CD09E12232C004000BD7D4A /* MaterialCommunityIcons.ttf */,
+				3CD09E0E232C004000BD7D4A /* MaterialIcons.ttf */,
+				3CD09E18232C004000BD7D4A /* Octicons.ttf */,
+				3CD09E14232C004000BD7D4A /* SimpleLineIcons.ttf */,
+				3CD09E15232C004000BD7D4A /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BCBACE90848F4DD995AD9977 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55E290820E62C9874AF8EEF1 /* Pods-jogomemoria.debug.xcconfig */,
+				16B71D92BE4DC4E9139388D1 /* Pods-jogomemoria.release.xcconfig */,
+				8F68C6B0E4666BE7838009C5 /* Pods-jogomemoria-tvOS.debug.xcconfig */,
+				B5F9D42354F9F4A133C74A67 /* Pods-jogomemoria-tvOS.release.xcconfig */,
+				7CC9804B6396E1887F5E5E8E /* Pods-jogomemoria-tvOSTests.debug.xcconfig */,
+				F6D673DE2A54A5D353411BA6 /* Pods-jogomemoria-tvOSTests.release.xcconfig */,
+				1F9769F916466FBB389268AC /* Pods-jogomemoriaTests.debug.xcconfig */,
+				E7827D110DA067AAB5900BE0 /* Pods-jogomemoriaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "jogomemoriaTests" */;
 			buildPhases = (
+				E3476C6253EBEB857D86688D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -182,18 +279,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "jogomemoria" */;
 			buildPhases = (
+				F0A0A61EFA5B93780A50B101 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				7F17B58BCC263430C9DAF290 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = jogomemoria;
-			productName = "jogomemoria";
+			productName = jogomemoria;
 			productReference = 13B07F961A680F5B00A75B9A /* jogomemoria.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -201,6 +300,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "jogomemoria-tvOS" */;
 			buildPhases = (
+				3C7EF70D180965A88C779E26 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -220,6 +320,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "jogomemoria-tvOSTests" */;
 			buildPhases = (
+				58F0EF26B801C310A8B956DF /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -240,7 +341,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -263,6 +364,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -291,7 +393,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CD09E1C232C004000BD7D4A /* Fontisto.ttf in Resources */,
+				3CD09E23232C004000BD7D4A /* Foundation.ttf in Resources */,
+				3CD09E1D232C004000BD7D4A /* FontAwesome5_Solid.ttf in Resources */,
+				3CD09E1F232C004000BD7D4A /* Ionicons.ttf in Resources */,
+				3CD09E25232C004000BD7D4A /* Zocial.ttf in Resources */,
+				3CD09E24232C004000BD7D4A /* SimpleLineIcons.ttf in Resources */,
+				3CD09E29232C004000BD7D4A /* AntDesign.ttf in Resources */,
+				3CD09E2B232C004000BD7D4A /* EvilIcons.ttf in Resources */,
+				3CD09E21232C004000BD7D4A /* FontAwesome.ttf in Resources */,
+				3CD09E26232C004000BD7D4A /* Entypo.ttf in Resources */,
+				3CD09E27232C004000BD7D4A /* Feather.ttf in Resources */,
+				3CD09E1E232C004000BD7D4A /* MaterialIcons.ttf in Resources */,
+				3CD09E28232C004000BD7D4A /* Octicons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				3CD09E20232C004000BD7D4A /* FontAwesome5_Brands.ttf in Resources */,
+				3CD09E22232C004000BD7D4A /* MaterialCommunityIcons.ttf in Resources */,
+				3CD09E2A232C004000BD7D4A /* FontAwesome5_Regular.ttf in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +459,142 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		3C7EF70D180965A88C779E26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jogomemoria-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58F0EF26B801C310A8B956DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jogomemoria-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F17B58BCC263430C9DAF290 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jogomemoria/Pods-jogomemoria-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jogomemoria/Pods-jogomemoria-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3476C6253EBEB857D86688D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jogomemoriaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0A0A61EFA5B93780A50B101 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jogomemoria-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -447,6 +701,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F9769F916466FBB389268AC /* Pods-jogomemoriaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -469,6 +724,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7827D110DA067AAB5900BE0 /* Pods-jogomemoriaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -488,6 +744,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E290820E62C9874AF8EEF1 /* Pods-jogomemoria.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -507,6 +764,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B71D92BE4DC4E9139388D1 /* Pods-jogomemoria.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -525,6 +783,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F68C6B0E4666BE7838009C5 /* Pods-jogomemoria-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -552,6 +811,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F9D42354F9F4A133C74A67 /* Pods-jogomemoria-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -579,6 +839,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CC9804B6396E1887F5E5E8E /* Pods-jogomemoria-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -605,6 +866,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D673DE2A54A5D353411BA6 /* Pods-jogomemoria-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
