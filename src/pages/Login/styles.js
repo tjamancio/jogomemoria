@@ -16,7 +16,9 @@ export const TextInput = styled.TextInput`
   padding: 0 ${metrics.basePadding}px;
 `;
 
-export const LoginButton = styled.TouchableOpacity`
+export const LoginButton = styled.TouchableOpacity.attrs({
+  activeOpacity: 0.6,
+})`
   height: 44px;
   background: ${colors.primary};
   border-radius: ${metrics.baseRadius}px;
@@ -29,4 +31,10 @@ export const LoginButton = styled.TouchableOpacity`
 export const LoginButtonText = styled.Text`
   color: ${colors.white};
   font-weight: bold;
+`;
+
+export const Error = styled.Text`
+  align-self: center;
+  color: ${colors.danger};
+  margin-bottom: ${metrics.baseMargin}px;
 `;

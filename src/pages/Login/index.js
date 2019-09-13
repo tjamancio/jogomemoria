@@ -5,11 +5,18 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import UserActions from '../../store/ducks/user';
 
-import {Container, TextInput, LoginButton, LoginButtonText} from './styles';
+import {
+  Container,
+  TextInput,
+  LoginButton,
+  LoginButtonText,
+  Error,
+} from './styles';
 
 class Login extends Component {
   state = {
-    name: 'Thiago',
+    name: '',
+    error: '',
   };
 
   static propTypes = {
@@ -21,14 +28,19 @@ class Login extends Component {
   handleLoginClick = () => {
     const {navigation, setName} = this.props;
     const {name} = this.state;
-    setName(name);
-    navigation.navigate('Main');
+    if (name) {
+      setName(name);
+      navigation.navigate('Main');
+    } else {
+      this.setState({error: 'Digite um nome válido!'});
+    }
   };
 
   render() {
-    const {name} = this.state;
+    const {name, error} = this.state;
     return (
       <Container>
+        {!!error && <Error>{error}</Error>}
         <TextInput
           placeholder="Digite seu nome"
           underlineColorAndroid="transparent"
